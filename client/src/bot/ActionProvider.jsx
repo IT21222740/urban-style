@@ -9,7 +9,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       message: message,
     };
     
-    axios.post('http://localhost:4000/chatbot/add', requestData)
+    axios.post('http://localhost:8070/chatbot/add', requestData)
     .then((response) => {
       // Handle the API response here
       console.log('API response:', response.data.result);

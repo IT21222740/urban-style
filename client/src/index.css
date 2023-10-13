@@ -569,3 +569,11 @@ p10 {
 }
 
 
+.react-chatbot-kit-user-chat-message{
+  background-color: #212529 !important;
+  color:#fff !important
+}
+
+.react-chatbot-kit-chat-bot-message {
+  color: #514f4f !important;
+}

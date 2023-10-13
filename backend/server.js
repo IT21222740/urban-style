@@ -6,7 +6,7 @@ const morgan = require('morgan')
 const cors = require('cors')
 
 //routes
-const inventory_base = require('./routes/inventory/inventory_base')
+const inventory_base = require('./routes/inventory/chatbot')
 const chatbot_base = require('./routes/chatbot/chatbot_base')
 const user_base = require('./routes/user/user_base')
 const userQuiz_base = require('./routes/userQuiz/usreQuiz_base')
